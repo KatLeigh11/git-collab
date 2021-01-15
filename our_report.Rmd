@@ -11,3 +11,11 @@ library(tidyverse)
 library(palmerpenguins)
 
 ```
+adding graph
+```{r}
+ggplot(data = penguins, aes(x = body_mass_g, 
+      y = flipper_length_mm)) + 
+                              geom_point()
+
+```
+
