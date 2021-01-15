@@ -18,4 +18,10 @@ ggplot(data = penguins, aes(x = body_mass_g,
                               geom_point()
 
 ```
+make a subset of the penguins dataset, called adelie
+```{r}
+adelie <- penguins %>% 
+  filter(species == "Adelie")
+```
+
 
